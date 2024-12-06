@@ -3,11 +3,12 @@
  */
 
 import React from 'react';
+import Pokecard from './Pokecard';
 
-function Pokedex(props){
+function Pokedex(){
     return (
         <>
-        <p>Checking if the Component is making it to the client... <b>Hi, I'm {props.name}</b></p>
+            <Pokecard />
         </>
     )
 }
